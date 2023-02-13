@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma Senac | Home</title>
+    <!--link para favicon-->
+    <link rel="icon" type = "image/png" sizes = "32x32" href="./images/favicon.png.png">
+
+    <!-- Icones Remixicon.com -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    
+    <!--links do css-->
+    <link rel="stylesheet" href="./css/main.css">
+
+
+</head>
+<body>
+    <!--header-->
+    <header class="header" id = "header">
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Turma Senac</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="" class="list-link current">Senac</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Categoria</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Notícias</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Comentários</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Blog</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Contato</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Login</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="" class="list-link">Inscreva-se</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                <button class="btn place-items-center screen-lg-hidden icon" id="menu-toggle">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+                <a href="#" class="list-link screen-sm-hidden">LOGIN</a>
+                <a href="" class="list-link screen-sm-hidden btn sign-up-btn fancy-border">
+                    <span>Login</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+    
+    <!-- Busca (search) -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="O que você está procurando?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+
+                </button>
+            </form>
+            <span class="form-note">Pressione ESC para sair.</span>
+            
+            <button class="btn form-close-btn place-items-center" id="form-close-btn"></button>
+            <i class="ri-closed-btn"></i>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
